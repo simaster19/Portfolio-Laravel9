@@ -6,8 +6,7 @@
 
 ## Socials
 
-[https://instagram.com/simaster19](url)
-[https://youtube.com/simaster19](url)
+[Instagram](https://instagram.com/simaster19) | [Youtube](https://youtube.com/simaster19)
 
 ## Description
 

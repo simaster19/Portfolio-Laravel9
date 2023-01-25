@@ -18,6 +18,11 @@
 
 ## View
 
+![dashboard](https://user-images.githubusercontent.com/107765852/214470270-6a0e4ae5-17e2-4f44-8d5e-7a223f5fa8e0.png)
+![detailweb](https://user-images.githubusercontent.com/107765852/214470277-12d85060-1126-4983-b25d-eeddc3a9a28a.png)
+![login](https://user-images.githubusercontent.com/107765852/214470284-47b55a0a-4690-4671-8a38-c6fd093a860f.png)
+![web](https://user-images.githubusercontent.com/107765852/214470286-b45d7ec6-5122-4ba3-a64f-590c9922464a.png)
+
 ## Installation
 
 1. Open Terminal Git or other

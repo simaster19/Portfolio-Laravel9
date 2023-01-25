@@ -2,7 +2,12 @@
 
 ## Contents
 
--[Description](#description) -[Requirements](#requirements) -[View](#view) -[Installation](#installation)
+-[Social](#socials) -[Description](#description) -[Requirements](#requirements) -[View](#view) -[Installation](#installation)
+
+## Socials
+
+[https://instagram.com/simaster19](url)
+[https://youtube.com/simaster19](url)
 
 ## Description
 

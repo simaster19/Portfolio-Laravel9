@@ -1,7 +1,8 @@
 @extends('dashboards.layouts.main')
 
 @section('container')
-    {{-- @dd($dataUser->project) --}}
+    {{-- @dd($dataMessage) --}}
+    {{-- @dd($dataUser) --}}
     <div class="pagetitle">
         <h1>Dashboard</h1>
         <nav>
@@ -23,7 +24,13 @@
                     <div class="col-xxl-4 col-md-6">
                         <div class="card info-card sales-card">
                             <div class="card-body">
-                                <h5 class="card-title">Project <span>| {{ $dataUser->project->last()['created_at'] }}</span>
+                                <h5 class="card-title">Project <span>|
+                                        @if (count($dataUser->project) == 0)
+                                            {{ '' }}
+                                        @else
+                                            {{ $dataUser->project->last()['created_at'] }}
+                                        @endif
+                                    </span>
                                 </h5>
 
                                 <div class="d-flex align-items-center">
@@ -44,14 +51,20 @@
                         <div class="card info-card revenue-card">
 
                             <div class="card-body">
-                                <h5 class="card-title">Message <span>| Last Update</span></h5>
+                                <h5 class="card-title">Message <span>|
+                                        @if (count($dataMessage) == 0)
+                                            {{ '' }}
+                                        @else
+                                            {{ $dataMessage->last()['created_at'] }}
+                                        @endif
+                                    </span></h5>
 
                                 <div class="d-flex align-items-center">
                                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                         <i class="bi bi-envelope-fill"></i>
                                     </div>
                                     <div class="ps-3">
-                                        <h6>$3,264</h6>
+                                        <h6>{{ count($dataMessage) }}</h6>
 
                                     </div>
                                 </div>

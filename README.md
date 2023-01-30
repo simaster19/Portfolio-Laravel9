@@ -31,7 +31,7 @@
 
 1. Open Terminal Git or other
 2. clone project on terminal
-   git clone https://github.com/simaster19/portfolio-laravel9.git
+   "git clone https://github.com/simaster19/portfolio-laravel9.git"
 3. Move to folder htdocs
 4. open folder on Git or terminal
 5. typing on terminal composer install
@@ -41,4 +41,5 @@
 -   and set DB_DATABASE=portfolio
 
 7. create New DB on Your Localhost with name portfolio
-8. typing on terminal php artisan migrate:fresh
+8. typing on terminal "php artisan migrate:fresh"
+9. and then typing on terminal "php artisan serve"

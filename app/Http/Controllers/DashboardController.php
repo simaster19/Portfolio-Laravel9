@@ -17,7 +17,6 @@ class DashboardController extends Controller
         return view('dashboards.index', [
             'dataUser' => User::where('id', $id)->withCount(['project'])->get()[0],
             'dataMessage' => Message::all(),
-            // 'dataImage' => Image::all(),
             'title' => 'Dashboard'
 
         ]);

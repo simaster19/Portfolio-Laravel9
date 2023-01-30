@@ -16,7 +16,7 @@
                </a>
            </li>
            <li class="nav-item">
-               <a class="nav-link" href="/">
+               <a class="nav-link" href="/message">
                    <i class="bi bi-envelope"></i><span>Data Message</span>
                </a>
            </li>
